@@ -1,0 +1,10 @@
+# cli/Cargo.toml
+
+[package]
+name = "neural_network_cli"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+neural_app = { path = ".." }
+rand = "0.8.5"
